@@ -3,20 +3,20 @@ import java.lang.String;
 public class StringMethod {
 
 	public static void main(String[] args) {
-		String st1="»ó¼öÇü½ÄÀ¸·Î ¹®ÀÚ¿­ ¼±¾ğ";
-		String st2="»ó¼öÇü½ÄÀ¸·Î ¹®ÀÚ¿­ ¼±¾ğ";
-		String st3= new String("»ó¼öÇü½ÄÀ¸·Î ¹®ÀÚ¿­ ¼±¾ğ");
-		String st4= new String("»ó¼öÇü½ÄÀ¸·Î ¹®ÀÚ¿­ ¼±¾ğ");
+		String st1="ìƒìˆ˜í˜•ì‹ìœ¼ë¡œ ë¬¸ìì—´ ì„ ì–¸";
+		String st2="ìƒìˆ˜í˜•ì‹ìœ¼ë¡œ ë¬¸ìì—´ ì„ ì–¸";
+		String st3= new String("ê°ì²´ìƒì„±ìœ¼ë¡œ ë¬¸ìì—´ ì„ ì–¸");
+		String st4= new String("ê°ì²´ìƒì„±ìœ¼ë¡œ ë¬¸ìì—´ ì„ ì–¸");
 		
 		
-		System.out.println("st1 vs st2 ÁÖ¼Ò: "+(st1==st2));
-		System.out.println("st3 vs st4 ÁÖ¼Ò: "+(st1==st4));
-		System.out.println("st1 vs st3 ÁÖ¼Ò: "+(st1==st3));
-		System.out.println("st2 vs st4 ÁÖ¼Ò: "+(st2==st4));
-		System.out.println("st1 vs st2 ³»¿ë: "+(st1.equals(st2)));
-		System.out.println("st3 vs st4 ³»¿ë: "+(st3.equals(st4)));
-		System.out.println("st1 vs st3 ³»¿ë: "+(st1.equals(st3)));
-		System.out.println("st2 vs st4 ³»¿ë: "+(st2.equals(st4)));
+		System.out.println("st1 vs st2 ì£¼ì†Œ: "+(st1==st2));
+		System.out.println("st3 vs st4 ì£¼ì†Œ: "+(st1==st4));
+		System.out.println("st1 vs st3 ì£¼ì†Œ: "+(st1==st3));
+		System.out.println("st2 vs st4 ì£¼ì†Œ: "+(st2==st4));
+		System.out.println("st1 vs st2 ë‚´ìš©: "+(st1.equals(st2)));
+		System.out.println("st3 vs st4 ë‚´ìš©: "+(st3.equals(st4)));
+		System.out.println("st1 vs st3 ë‚´ìš©: "+(st1.equals(st3)));
+		System.out.println("st2 vs st4 ë‚´ìš©: "+(st2.equals(st4)));
 		System.out.println( );
 		
 	}
