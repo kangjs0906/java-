@@ -1,24 +1,30 @@
-import java.lang.String;
+import java.util.Scanner;
+import java.lang.StringBuffer;
 
 public class StringMethod {
+    public static void main(String[] args) {
+        int n1,n2;
+        String str, st1;
 
-	public static void main(String[] args) {
-		String st1="상수형식으로 문자열 선언";
-		String st2="상수형식으로 문자열 선언";
-		String st3= new String("객체생성으로 문자열 선언");
-		String st4= new String("객체생성으로 문자열 선언");
-		
-		
-		System.out.println("st1 vs st2 주소: "+(st1==st2));
-		System.out.println("st3 vs st4 주소: "+(st1==st4));
-		System.out.println("st1 vs st3 주소: "+(st1==st3));
-		System.out.println("st2 vs st4 주소: "+(st2==st4));
-		System.out.println("st1 vs st2 내용: "+(st1.equals(st2)));
-		System.out.println("st3 vs st4 내용: "+(st3.equals(st4)));
-		System.out.println("st1 vs st3 내용: "+(st1.equals(st3)));
-		System.out.println("st2 vs st4 내용: "+(st2.equals(st4)));
-		System.out.println( );
-		
-	}
+        System.out.println("3개의 단어 이상으로 구성된 문자열을 입력하세요.");
+        Scanner scan = new Scanner(System.in);
+        str = scan.nextLine();
 
+        System.out.println("[문자열 역순 반환]");
+            StringBuffer sb1 = new StringBuffer(str);
+            StringBuffer sb2 = null;
+            System.out.println("문자열 역순 변환 결과: "+(sb1.reverse())+"\n");
+
+            System.out.println("[문자열 치환 반환]");
+            System.out.print("치환 시작위치 입력: ");
+                n1 = scan.nextInt();
+            System.out.print("\n치환 종료위치 입력: ");
+                n2 = scan.nextInt();
+                st1 = "ABCDEFG";
+            System.out.println("치환 문자열: "+st1);
+                System.out.println("완성 문자열:"+(sb1.replace(n1,n2,st1)));
+
+
+
+    }
 }
