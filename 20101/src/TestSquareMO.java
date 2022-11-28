@@ -16,9 +16,9 @@ class SquareMO {
 		// TODO Auto-generated constructor stub
 	}
 	void countBox(int w, int l) {
-		System.out.println("³ĞÀÌ: "+(w*l));
+		System.out.println("ë„“ì´: "+(w*l));
 	}
 	void countBox(int w, int l, int h) {
-		System.out.println("³ĞÀÌ: "+(w*l)+" \tºÎÇÇ: "+(w*l*h));
+		System.out.println("ë„“ì´: "+(w*l)+" \të¶€í”¼: "+(w*l*h));
 	}
 }
